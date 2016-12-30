@@ -1,0 +1,15 @@
+<h1>Show your Intelligence!</h1>
+<p>Please fill the below fields to submit an article</p>
+
+<div>
+<%= form_tag({:action =>"create", :method =>"post"} ) do %>
+<label> title </label><br/>
+<%= text_field (:post, :title) %><br/>
+
+<label>Content</label></br>
+<%= text_area (:post, :title, "rows" =>20,"cols" =>30) %><br/>
+<%= submit_tag( "Submit this article!") %>
+<% end_form_tag %>
+
+<a href="/show" >   View all previous articles </a></br>
+

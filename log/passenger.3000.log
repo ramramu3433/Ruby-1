@@ -1,0 +1,99 @@
+[ 2016-12-28 12:22:37.0097 30890/7ff17e80b7c0 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2016-12-28 12:22:37.0152 30893/7fbf3f6e07c0 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2016-12-28 12:22:37.0153 30893/7fbf3f6e07c0 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2016-12-28 12:22:37.0173 30893/7fbf3f6e07c0 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 30893
+[ 2016-12-28 12:22:37.0229 30899/7fb999dde7c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-12-28 12:22:37.0234 30899/7fb999dde7c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 30899
+App 30933 stdout: 
+[ 2016-12-28 12:22:39.8850 30893/7fbf3f612700 age/Cor/SecurityUpdateChecker.h:350 ]: Security update check: no update found (next check in 24 hours)
+App 30951 stdout: 
+App 30971 stdout: 
+App 30983 stdout: 
+
+[ 2016-12-28 12:23:20.4449 30893/7fbf38f0d700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-12-28 12:23:20.4450 30893/7fbf3f6e07c0 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-12-28 12:23:20.4450 30893/7fbf3f6e07c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 30951, application /root/sample_ruby_project/public (development)
+[ 2016-12-28 12:23:20.4450 30893/7fbf3f6e07c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 30971, application /root/sample_ruby_project/public (development)
+[ 2016-12-28 12:23:20.4450 30893/7fbf3f6e07c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 30983, application /root/sample_ruby_project/public (development)
+[ 2016-12-28 12:23:20.4450 30893/7fbf33fff700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-12-28 12:23:20.4450 30893/7fbf33fff700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-12-28 12:23:20.4452 30893/7fbf38f0d700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-12-28 12:23:20.4452 30893/7fbf38f0d700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2016-12-28 12:23:20.4452 30893/7fbf3f6e07c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 30951, application /root/sample_ruby_project/public (development)
+[ 2016-12-28 12:23:20.4452 30893/7fbf3f6e07c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 30971, application /root/sample_ruby_project/public (development)
+[ 2016-12-28 12:23:20.4452 30893/7fbf3f6e07c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 30983, application /root/sample_ruby_project/public (development)
+
+[ 2016-12-28 12:23:20.4512 30899/7fb9935d1700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-12-28 12:23:20.4512 30899/7fb999dde7c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-12-28 12:23:20.4512 30899/7fb992dd0700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-12-28 12:23:20.4513 30899/7fb992dd0700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-12-28 12:23:20.4514 30899/7fb9935d1700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-12-28 12:23:20.4515 30899/7fb999dde7c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-12-28 12:23:20.6747 30893/7fbf3f6e07c0 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2016-12-30 12:57:08.4360 6806/7fb188ec37c0 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2016-12-30 12:57:08.4828 6809/7f737a4e97c0 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2016-12-30 12:57:08.4848 6809/7f737a4e97c0 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2016-12-30 12:57:08.4976 6809/7f737a4e97c0 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 6809
+[ 2016-12-30 12:57:08.5072 6815/7f3965adc7c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-12-30 12:57:08.5093 6815/7f3965adc7c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 6815
+App 6849 stdout: 
+App 6865 stdout: 
+[ 2016-12-30 12:57:15.8039 6809/7f737a41b700 age/Cor/SecurityUpdateChecker.h:350 ]: Security update check: no update found (next check in 24 hours)
+App 6879 stdout: 
+App 6889 stdout: 
+App 6897 stdout: 
+
+[ 2016-12-30 12:57:57.0880 6809/7f736f7fe700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-12-30 12:57:57.0880 6809/7f737a4e97c0 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-12-30 12:57:57.0881 6809/7f737a4e97c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 6865, application /root/sample_ruby_project/public (development)
+[ 2016-12-30 12:57:57.0881 6809/7f737a4e97c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 6879, application /root/sample_ruby_project/public (development)
+[ 2016-12-30 12:57:57.0881 6809/7f737a4e97c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 6889, application /root/sample_ruby_project/public (development)
+[ 2016-12-30 12:57:57.0881 6809/7f737a4e97c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 6897, application /root/sample_ruby_project/public (development)
+[ 2016-12-30 12:57:57.0881 6809/7f736effd700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-12-30 12:57:57.0881 6809/7f736effd700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-12-30 12:57:57.0882 6809/7f736f7fe700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-12-30 12:57:57.0882 6809/7f736f7fe700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2016-12-30 12:57:57.0883 6809/7f737a4e97c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 6865, application /root/sample_ruby_project/public (development)
+[ 2016-12-30 12:57:57.0883 6809/7f737a4e97c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 6879, application /root/sample_ruby_project/public (development)
+[ 2016-12-30 12:57:57.0883 6809/7f737a4e97c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 6889, application /root/sample_ruby_project/public (development)
+[ 2016-12-30 12:57:57.0883 6809/7f737a4e97c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 6897, application /root/sample_ruby_project/public (development)
+
+[ 2016-12-30 12:57:57.0922 6815/7f395f2cf700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-12-30 12:57:57.0922 6815/7f3965adc7c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-12-30 12:57:57.0922 6815/7f395eace700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-12-30 12:57:57.0922 6815/7f395eace700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-12-30 12:57:57.0924 6815/7f395f2cf700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-12-30 12:57:57.0925 6815/7f3965adc7c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-12-30 12:57:57.3341 6809/7f737a4e97c0 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
+[ 2016-12-30 12:58:04.8563 6957/7f17753a47c0 age/Wat/WatchdogMain.cpp:1281 ]: Starting Passenger watchdog...
+[ 2016-12-30 12:58:04.8616 6960/7f69ef9317c0 age/Cor/CoreMain.cpp:1070 ]: Starting Passenger core...
+[ 2016-12-30 12:58:04.8616 6960/7f69ef9317c0 age/Cor/CoreMain.cpp:245 ]: Passenger core running in multi-application mode.
+[ 2016-12-30 12:58:04.8637 6960/7f69ef9317c0 age/Cor/CoreMain.cpp:820 ]: Passenger core online, PID 6960
+[ 2016-12-30 12:58:04.8686 6966/7fb21a3dd7c0 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2016-12-30 12:58:04.8690 6966/7fb21a3dd7c0 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 6966
+App 7000 stdout: 
+[ 2016-12-30 12:58:07.7072 6960/7f69ef863700 age/Cor/SecurityUpdateChecker.h:350 ]: Security update check: no update found (next check in 24 hours)
+App 7016 stdout: 
+App 7024 stdout: 
+App 7036 stdout: 
+
+[ 2016-12-30 12:58:21.9332 6960/7f69e915e700 age/Cor/CoreMain.cpp:585 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-12-30 12:58:21.9333 6960/7f69ef9317c0 age/Cor/CoreMain.cpp:989 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-12-30 12:58:21.9333 6960/7f69ef9317c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 7016, application /root/sample_ruby_project/public (development)
+[ 2016-12-30 12:58:21.9334 6960/7f69ef9317c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 7024, application /root/sample_ruby_project/public (development)
+[ 2016-12-30 12:58:21.9334 6960/7f69ef9317c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 7036, application /root/sample_ruby_project/public (development)
+[ 2016-12-30 12:58:21.9335 6960/7f69e895d700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2016-12-30 12:58:21.9335 6960/7f69e895d700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2016-12-30 12:58:21.9337 6960/7f69e915e700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2016-12-30 12:58:21.9337 6960/7f69e915e700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2016-12-30 12:58:21.9338 6960/7f69ef9317c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 7016, application /root/sample_ruby_project/public (development)
+[ 2016-12-30 12:58:21.9338 6960/7f69ef9317c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 7024, application /root/sample_ruby_project/public (development)
+[ 2016-12-30 12:58:21.9339 6960/7f69ef9317c0 age/Cor/CoreMain.cpp:907 ]: Checking whether to disconnect long-running connections for process 7036, application /root/sample_ruby_project/public (development)
+
+[ 2016-12-30 12:58:21.9391 6966/7fb213bd0700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2016-12-30 12:58:21.9391 6966/7fb21a3dd7c0 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2016-12-30 12:58:21.9392 6966/7fb2133cf700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2016-12-30 12:58:21.9392 6966/7fb2133cf700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2016-12-30 12:58:21.9395 6966/7fb213bd0700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2016-12-30 12:58:21.9397 6966/7fb21a3dd7c0 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2016-12-30 12:58:22.1665 6960/7f69ef9317c0 age/Cor/CoreMain.cpp:1055 ]: Passenger core shutdown finished
